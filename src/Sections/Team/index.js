@@ -1,0 +1,148 @@
+import React, { lazy } from "react";
+import styled from "styled-components";
+
+import Slider from "react-slick";
+import "../../../node_modules/slick-carousel/slick/slick.css";
+import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+
+const Card = lazy(() => import("../../components/Card/index"));
+
+const Section = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 0;
+`;
+
+const Title = styled.h1`
+  color: #0a0b10;
+  display: inline-block;
+  font-size: calc(1rem + 1.5vw);
+  margin-top: 1.5rem;
+  position: relative;
+  &::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0.5rem);
+    /* or 100px */
+    border-bottom: 2px solid var(--purple);
+  }
+`;
+
+const Carousal = styled.div`
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media only Screen and (max-width: 40em) {
+    width: 90vw;
+    .slick-slider .slick-arrow {
+      display: none;
+    }
+  }
+  .slick-slider .slick-arrow:before {
+    color: #0a0b10;
+    font-size:2rem;
+    @media only Screen and (max-width: 40em) {
+      display: none;
+    }
+  }
+  .slick-slider .slick-dots button:before {
+    color: #0a0b10;
+    font-size: 2rem;
+  }
+  .slick-slide.slick-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+`;
+
+const Team = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  return (
+    <Section>
+      <Title>BMG Lab Team</Title>
+      <Carousal>
+        <Slider {...settings}>
+        <Card
+            text="CodeBucks has been essential part of our business. I would definetly recommend CodeBucks. It has been amazing to have them."
+            name="Yasin Kaymaz"
+            image="yasinkaymaz"
+            title="P.I."
+          />
+
+            <Card
+            text="I am a PhD candidate in the Computer Science program of the Department of Mathematics. My research focuses on developing CNN models for brain cancer data and enhancing accuracy through mathematical optimization."
+            name="Khuraman Sayın"
+            image="khuramansayın"
+            title="PhD student"
+          />      
+           <Card
+            text="My research focuses on using machine learning and hierarchical classification approaches to study macrophage subtypes in the lung cancer tumor microenvironment."
+            name="Duygu Keremitçi"
+            image="duygukeremitci"
+            title="Master's student"
+          />  
+          <Card
+            text="I am working on brain cancer radiopathomics artificial intelligence models and clinical, genomic data analysis in the BMG lab. I am also a front-end developer at Genfoquest Analytica, which collaborates with the lab."
+            name="Gözde Şimşek"
+            title="Master's student"
+            image="gozdesimsek"
+          />
+          <Card
+            text="I work in the laboratory, focusing on the analysis of various genomic data, including scRNA-seq, bulk-seq, and PAS-seq data. These diverse genomic datasets are related to cancer research, plant biology, and various proteins."
+            name="Özlem Tuna"
+            image="ozlemtuna"
+            title="Master's student"
+          /> 
+          <Card
+            text="I'm currently pursuing my master's studies as a mathematics graduate in the BMG lab. My focus is on developing and analyzing scoring methods from single-cell RNA sequencing (scRNA-seq) data."
+            name="Zeynep Garan"
+            image="zeynepgaran"
+            title="Master's student"
+          />    
+           <Card
+            text="Single cell lover, I contribute to computational biology and bioinformatics studies from a bioengineering perspective for personalized medicine applications in the field of cancer treatment and beyond."
+            name="Ozan Göçmen"
+            image="ozangocmen"
+            title="Master's student"
+          />        
+
+          <Card
+            text="I am a Python developer at BMGLab, specializing in working with Next-Generation Sequencing (NGS) data. Additionally, I contribute as a Back-End developer at Genfoquest Analytica, a collaborator with our lab."
+            name="Amir Amiritabat"
+            image="amiramiritabat"
+            title="Long Term Intern"
+          />
+          <Card
+            text="I am interested in bioinformatics and have a keen interest in the field of genomics. I have been working on bioinformatics studies in the laboratory for two years and gain experience in various projects during this period."
+            name="Melike Güler"
+            image="melikegüler"
+            title="Long Term Intern"
+          />
+        </Slider>
+      </Carousal>
+    </Section>
+  );
+};
+
+export default Team;
