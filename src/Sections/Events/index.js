@@ -43,7 +43,7 @@ const Carousal = styled.div`
   flex-direction: column;
   justify-content: center;
   @media only Screen and (max-width: 40em) {
-    width: 60vw;
+
     .slick-slider .slick-arrow {
       display: none;
     }
@@ -78,12 +78,23 @@ const Events = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    pauseOnHover: true
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplaySpeed: 6000,
+        }
+      },
+      
+    ]  
   };
 
   return (
     <Section>
-      <Title>Events</Title>
+      <Title>Our Events</Title>
 
       <Carousal>
         <Slider {...settings}>

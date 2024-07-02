@@ -11,6 +11,11 @@ const CARD = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+    @media only Screen and (max-width: 40em) {
+      width: 300px;
+   height: 250px
+    }
 `;
 
 const Image = styled.div`
@@ -27,6 +32,11 @@ const Image = styled.div`
   background-size: cover;
   background-position: top;
   filter: drop-shadow(0px -3px 3px var(--nav2));
+  @media only Screen and (max-width: 40em) {
+    width: 100px;
+  height: 100px
+   
+    }
 `;
 
 const TEXT = styled.h4`
@@ -41,12 +51,20 @@ const NAME = styled.h3`
   color: var(--pink);
   padding-top: 1rem;
   font-size: calc(0.5rem + 1vw);
+  @media only Screen and (max-width: 40em) {
+    font-size: 1rem
+   
+    }
 `;
 const Title = styled.h3`
   color: var(--cardtitle);
   padding-top: 0.5rem;
   font-weight: 400;
   font-size: calc(0.2rem + 1vw);
+  @media only Screen and (max-width: 40em) {
+    font-size: 0.8rem
+   
+    }
 `;
 
 const Card = ({ name, text, image,title }) => {

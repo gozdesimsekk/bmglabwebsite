@@ -1,7 +1,6 @@
-import Facebook from "../../assets/facebook-square-brands.svg";
 import LinkedId from "../../assets/linkedin-brands.svg";
 import Twitter from "../../assets/twitter-square-brands.svg";
-import Instagram from "../../assets/instagram-square-brands.svg";
+import Gmail from "../../assets/envelope-open-solid.svg"
 import styled from "styled-components";
 
 const ContactSection = styled.section`
@@ -130,46 +129,24 @@ const Contact = () => {
       <Title>Get in touch</Title>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
       <Icons>
-        <a href="https://www.facebook.com/">
+        {/* <a href="https://www.facebook.com/">
           {" "}
           <img src={Facebook} alt="Facebook" />
+        </a> */}
+        <a href="mailto:yasinkaymaz@ege.edu.tr">
+          <img src={Gmail} alt="Email" />
         </a>
-        <a href="https://www.linkedin.com//">
+        <a href="https://www.linkedin.com/company/bmglab/" target="_blank" rel="noopener noreferrer">
           <img src={LinkedId} alt="LinkedId" />
         </a>
-        <a href="https://twitter.com/">
+        <a href="https://x.com/bmg_lab" target="_blank" rel="noopener noreferrer">
           <img src={Twitter} alt="Twitter" />
         </a>
-        <a href="https://www.instagram.com/">
-          <img src={Instagram} alt="Instagram" />
-        </a>
+       
+      
       </Icons>
-      <Form>
-        <Row>
-          <input name="name" type="text" placeholder="your name" />
-          <input
-            name="email"
-            type="email"
-            placeholder="enter working email id"
-          />
-        </Row>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="2"
-          placeholder="your message"
-        ></textarea>
-        <div style={{ margin: "0 auto" }}>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-          >
-            Submit
-          </button>
-        </div>
-      </Form>
+ 
+    
     </ContactSection>
   );
 };

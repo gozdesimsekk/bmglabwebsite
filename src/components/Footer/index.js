@@ -1,8 +1,5 @@
 import styled from "styled-components";
-import Twitter from "../../assets/twitter-square-brands.svg";
-import Instagram from "../../assets/instagram-square-brands.svg";
-import Gmail from "../../assets/envelope-open-solid.svg";
-import Linkedin from "../../assets/linkedin.svg"
+
 
 const FOOTER = styled.footer`
   padding: 1.2rem calc(2.5rem + 2.5vw);
@@ -49,12 +46,12 @@ const Footer = () => {
     <FOOTER>
       <LeftText>
         © 2024 Built by{" "}
-        <a href="https://github.com/gozdesimsekk">
+        <a href="https://github.com/gozdesimsekk" target="_blank" rel="noopener noreferrer">
           @gozdesimsekk
         </a>
       </LeftText>
-      <RightText>
-        Reach out to us via 😉
+      {/* <RightText>
+        Reach out to us via 
         <a href="https://www.linkedin.com/company/bmglab/">
           <img src={Linkedin} alt="Linkedin" />
         </a>
@@ -70,7 +67,7 @@ const Footer = () => {
         <a href="mailto:codebucks27@gmail.com?subject=Email From Your Website">
           <img src={Gmail} alt="Gmail" />
         </a>
-      </RightText>
+      </RightText> */}
     </FOOTER>
   );
 };

@@ -11,7 +11,7 @@ const move = keyframes`
 
 const HomeSection = styled.section`
   width: 100vw;
-  height: 35vw;
+  height: 50vh;
   background-color: #2d64e3;
   display: flex;
   justify-content: center;
@@ -41,15 +41,15 @@ const MainContent = styled.div`
 
 const MobileSvg = styled.img`
   max-width: 90%;
-  width: calc(30% + 20vw);
+  width: calc(20% + 20vw);
   border-radius: 50px;
   height: auto;
   z-index: 7;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 48em) {
-    align-self: flex-start;
+    align-self: center;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     width: calc(30% + 20vw);
     opacity: 0.5;
   }
@@ -114,7 +114,7 @@ const HeroSection = () => {
         <Lb id="leftBlock">
           <Topic>
             <Circle />
-            <span>Bioinformatics and Molecular Genetics Lab</span>
+            <span>İzmir, Ege University, Bioengineering Department </span>
           </Topic>
           <Title>Single cells, bioinformatics, genomics and beyond!</Title>
         </Lb>
@@ -122,8 +122,8 @@ const HeroSection = () => {
           src={Labteam}
           alt="Mobile Svg"
           srcSet=""
-          width="400"
-          height="400"
+          width="350"
+          height="350"
         />
       </MainContent>
     </HomeSection>

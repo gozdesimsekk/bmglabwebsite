@@ -80,7 +80,7 @@ const Team = () => {
 
   return (
     <Section>
-      <Title>BMG Lab Team</Title>
+      <Title>BMGLab Team</Title>
       <Carousal>
         <Slider {...settings}>
         <Card
@@ -89,12 +89,17 @@ const Team = () => {
             image="yasinkaymaz"
             title="P.I."
           />
-
+            <Card
+            text="I completed my Master's research on liver cancer stem cells. My doctoral research is on genomics, especially on scRNA-seq with an emphasis on lung and glioblastoma cancers and developing gene scoring algorithms."
+            name="Ebru Kocakaya"
+            image="ebrukocakaya"
+            title="PhD Candidate"
+          /> 
             <Card
             text="I am a PhD candidate in the Computer Science program of the Department of Mathematics. My research focuses on developing CNN models for brain cancer data and enhancing accuracy through mathematical optimization."
             name="Khuraman Sayın"
             image="khuramansayın"
-            title="PhD student"
+            title="PhD Candidate"
           />      
            <Card
             text="My research focuses on using machine learning and hierarchical classification approaches to study macrophage subtypes in the lung cancer tumor microenvironment."
@@ -126,9 +131,14 @@ const Team = () => {
             image="ozangocmen"
             title="Master's student"
           />        
-
+ <Card
+            text="As a bioinformatician and code developer, I work on genomics-based projects at Genfoquest Analytica. My role involves conducting detailed bioinformatics analyses and developing innovative computational tools. "
+            name="Elif Duymaz"
+            title="MSc. Bioinformatician"
+            image="elifduymaz"
+          />
           <Card
-            text="I am a Python developer at BMGLab, specializing in working with Next-Generation Sequencing (NGS) data. Additionally, I contribute as a Back-End developer at Genfoquest Analytica, a collaborator with our lab."
+            text="I am a Python developer and data engineer at BMGLab, experienced in working with NGS data. Additionally, I contribute as a back-end developer at Genfoquest Analytica, a collaborator with our lab."
             name="Amir Amiritabat"
             image="amiramiritabat"
             title="Long Term Intern"
@@ -138,6 +148,12 @@ const Team = () => {
             name="Melike Güler"
             image="melikegüler"
             title="Long Term Intern"
+          />
+          <Card
+            text="Zeynep Akçor, Melisa Ekici"
+            name="Alumni"
+            image="alumni"
+         
           />
         </Slider>
       </Carousal>

@@ -10,13 +10,12 @@ margin-top: 30px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+ 
+  @media only Screen and (max-width: 40em) {
 
-  ${'' /* @media only Screen and (max-width: 1089px) {
- 
-      height: calc(14rem + 12vw);
-  width: calc(10rem + 12vw);
- 
-  } */}
+    height: 36rem
+
+}
 
 `;
 const Image = styled.div`
@@ -26,11 +25,16 @@ display: flex;
  display: flex;
   border-radius: 20px;
 margin-top: 5px;
-  background: url(${(props) => props.img});
-  background-repeat: no-repeat;
+background: url(${(props) => props.img}) no-repeat center center;
   background-size: cover;
+  object-fit: cover;
   background-position: top;
   filter: drop-shadow(0px -3px 3px var(--nav2));
+  @media only Screen and (max-width: 40em) {
+
+    background-size: 95%;
+
+}
 `;
 
 const Title = styled.h3`
@@ -39,7 +43,11 @@ const Title = styled.h3`
   font-weight: 600;
   text-align: center;
   font-size: calc(0.2rem + 1vw);
-  
+  @media only Screen and (max-width: 40em) {
+
+    font-size: 1rem
+
+}
 `;
 const TEXT = styled.h4`
   color: #0E2F44;
@@ -48,6 +56,11 @@ const TEXT = styled.h4`
 
   text-align: center;
   font-size: calc(0.4rem + 0.5vw);
+  @media only Screen and (max-width: 40em) {
+    padding: 0.5rem;
+font-size: 0.8rem
+
+}
 `;
 
 const News = ({ text, image,title }) => {
@@ -55,7 +68,7 @@ const News = ({ text, image,title }) => {
 
   return (
     <NEWS>
-      <Image img={Newimage} width="600" height="900" />
+      <Image img={Newimage} />
       <Title>{title} </Title>
       <TEXT>{text}</TEXT>
       

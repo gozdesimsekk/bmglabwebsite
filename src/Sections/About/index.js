@@ -23,6 +23,12 @@ const Waves = styled.img`
   height: auto;
   position: absolute;
   top: -3rem;
+  @media only Screen and (max-width: 64em) {
+    top: -2rem;
+  }
+  @media only Screen and (max-width: 40em) {
+   display: none
+  }
 `;
 
 const Main = styled.div`
