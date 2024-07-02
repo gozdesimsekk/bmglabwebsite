@@ -116,7 +116,7 @@ const AboutText = styled.div`
 
 const About = () => {
   return (
-    <AboutSection id="about">
+    <AboutSection id="aboutus">
       <Waves src={wave} alt="" />
      
       <Main>

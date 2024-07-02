@@ -252,15 +252,19 @@ const Header = () => {
         {/* <a href="#services" onClick={(e) => scrollUp("services", e)}>
         Selected Publications
         </a> */}
-        <a href="#services" onClick={(e) => scrollUp("services", e)}>
-          Team
+        <a href="#aboutus" onClick={(e) => scrollUp("aboutus", e)}>
+          About
         </a>
-        <a href="#services" onClick={(e) => scrollUp("services", e)}>
-          Research
-        </a>
-        <a href="#services" onClick={(e) => scrollUp("services", e)}>
+        <a href="#events" onClick={(e) => scrollUp("events", e)}>
           Events
         </a>
+        <a href="#team" onClick={(e) => scrollUp("team", e)}>
+          Team
+        </a>
+        <a href="#research" onClick={(e) => scrollUp("research", e)}>
+          Researches
+        </a>
+      
        
         {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
@@ -273,11 +277,13 @@ const Header = () => {
         <a href="#home" onClick={(e) => handleClick("home", e)}>
           Home
         </a>
-        <a href="#about" onClick={(e) => handleClick("about", e)}>
-          About Us
+        <a href="#events" onClick={(e) => handleClick("events", e)}>
+          Events
+        </a> <a href="#team" onClick={(e) => handleClick("team", e)}>
+          Team
         </a>
-        <a href="#services" onClick={(e) => handleClick("services", e)}>
-          Services
+        <a href="#research" onClick={(e) => handleClick("research", e)}>
+          Researches
         </a>
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contact Us</Button>

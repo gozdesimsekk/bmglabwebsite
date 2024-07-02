@@ -79,7 +79,7 @@ const Team = () => {
   };
 
   return (
-    <Section>
+    <Section  id="team">
       <Title>BMGLab Team</Title>
       <Carousal>
         <Slider {...settings}>

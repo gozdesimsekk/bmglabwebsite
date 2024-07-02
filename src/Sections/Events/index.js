@@ -93,7 +93,7 @@ const Events = () => {
   };
 
   return (
-    <Section>
+    <Section  id="events">
       <Title>Our Events</Title>
 
       <Carousal>
