@@ -100,7 +100,13 @@ const Team = () => {
             name="Khuraman Sayın"
             image="khuramansayın"
             title="PhD Candidate"
-          />      
+          />    
+            <Card
+            text="I am a PhD candidate and Bioinformatics Scientist at the German Cancer Research Center. My research focuses on miRNA inference and regulatory network analysis with scRNA-seq data in cancer and other diseases."
+            name="Ali Yavuz Çakır"
+            image="aliyavuzcakir"
+            title="PhD Candidate"
+          />   
            <Card
             text="My research focuses on using machine learning and hierarchical classification approaches to study macrophage subtypes in the lung cancer tumor microenvironment."
             name="Duygu Keremitçi"
@@ -141,6 +147,12 @@ const Team = () => {
             text="I am a Python developer and data engineer at BMGLab, experienced in working with NGS data. Additionally, I contribute as a back-end developer at Genfoquest Analytica, a collaborator with our lab."
             name="Amir Amiritabat"
             image="amiramiritabat"
+            title="Long Term Intern"
+          />
+           <Card
+            text="I work as a python developer and manage containers and environments on computers. Additionally, I have gained experience with data engineering through projects and lab work."
+            name="Elyar Bafandeh Zendeh"
+            image="elyar"
             title="Long Term Intern"
           />
           <Card
