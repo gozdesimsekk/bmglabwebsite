@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import genfoquest from "../../assets/genfoquest_logo.png"
 
 const FOOTER = styled.footer`
   padding: 1.2rem calc(2.5rem + 2.5vw);
@@ -17,7 +17,17 @@ const FOOTER = styled.footer`
     }
   }
 `;
-
+const RightText = styled.div`
+  display: flex;
+  align-items: center;
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+   
+  }
+ 
+`;
 const LeftText = styled.div`
   text-align: left;
 `;
@@ -30,24 +40,15 @@ const Footer = () => {
           @gozdesimsekk
         </a>
       </LeftText>
-      {/* <RightText>
-        Reach out to us via 
-        <a href="https://www.linkedin.com/company/bmglab/">
-          <img src={Linkedin} alt="Linkedin" />
+      <RightText>
+  
+        A lifetime sponsor of BMGlab
+        <a href="https://genfoquest.com/" target="_blank" rel="noopener noreferrer">
+
+          <img src={genfoquest} alt="Genfoquest Analytica" />
         </a>
-        &nbsp;
-        <a href="https://twitter.com/code_bucks">
-          <img src={Twitter} alt="Twitter" />
-        </a>
-        &nbsp;
-        <a href="https://www.instagram.com/code.bucks/">
-          <img src={Instagram} alt="Instagram" />
-        </a>
-        &nbsp;
-        <a href="mailto:codebucks27@gmail.com?subject=Email From Your Website">
-          <img src={Gmail} alt="Gmail" />
-        </a>
-      </RightText> */}
+      
+      </RightText> 
     </FOOTER>
   );
 };
