@@ -1,14 +1,8 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import wave from "../../assets/waves.svg";
-import seq from "../../assets/seq.png";
 import gif from   "../../assets/labgif.gif"
 
 
-const move = keyframes`
-0% { transform: translateY(-5px)         }
-    50% { transform: translateY(10px) translateX(10px)        }
-    100% { transform: translateY(-5px)         }
-`;
 
 const AboutSection = styled.section`
   width: 100vw;
