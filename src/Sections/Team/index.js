@@ -84,7 +84,7 @@ const Team = () => {
       <Carousal>
         <Slider {...settings}>
         <Card
-            text="CodeBucks has been essential part of our business. I would definetly recommend CodeBucks. It has been amazing to have them."
+            text="I lead the BMGLab team, focusing on the dynamic behavior of disease-related genes at the transcriptomic level, particularly in immune cells. We develop advanced bioinformatics methods to analyze complex genetic data, aiming to provide valuable insights into disease biology for researchers."
             name="Yasin Kaymaz"
             image="yasinkaymaz"
             title="P.I."
@@ -145,7 +145,7 @@ const Team = () => {
           />
           <Card
             text="I am a Python developer and data engineer at BMGLab, experienced in working with NGS data. Additionally, I contribute as a back-end developer at Genfoquest Analytica, a collaborator with our lab."
-            name="Amir Amiritabat"
+            name="Amir Amiri Tabat"
             image="amiramiritabat"
             title="Long Term Intern"
           />

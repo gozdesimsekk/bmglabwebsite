@@ -46,13 +46,13 @@ const ResearchBody = styled.p`
 const ResearchList = () => {
   return (
     <Container  id="research">
-      <Title>Research Projects</Title>
+      <Title>Our Projects</Title>
       <ResearchItem>
         <ResearchTitle>Extension of endSeqTools with single-cell RNAseq data</ResearchTitle>
         <ResearchBody >
         Scientific and Technological Research Council of Turkey (TÜBİTAK) 1002 <br/>
           Researchers: Yasin Kaymaz <br/>
-          Contributors: Amir Amiri Tabat, Melike, Elyar
+          Contributors: Amir Amiri Tabat, Melike Güler, Elyar Bafandeh Zendeh
         </ResearchBody>
       </ResearchItem>
       <ResearchItem>
@@ -60,7 +60,7 @@ const ResearchList = () => {
         <ResearchBody>
         Scientific and Technological Research Council of Turkey (TÜBİTAK) 3501 <br/>
           Researchers: Yasin Kaymaz, Ayşe Caner, Ali Veral, Kutsal Turhan, Tevfik İlker Akçam, Hasan Bulut <br/>
-          Contributors: Ebru Kocakaya, Duygu Keremitçi, Ozan GÖÇMEN, Beyza AYGÜN
+          Contributors: Ebru Kocakaya, Duygu Keremitçi, Ozan Göçmen, Beyza Aygün
         </ResearchBody>
       </ResearchItem>
       <ResearchItem>

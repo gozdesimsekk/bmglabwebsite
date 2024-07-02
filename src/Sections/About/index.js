@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import wave from "../../assets/waves.svg";
 import seq from "../../assets/seq.png";
-import human from "../../assets/human.png";
+import gif from   "../../assets/labgif.gif"
 
 
 const move = keyframes`
@@ -73,12 +73,13 @@ const Rocket = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 40%;
+  width: 58%;
   padding-bottom: 2rem;
-  animation: ${move} 2.5s ease infinite;
+  padding-right: 5%;
+
   @media only Screen and (max-width: 40em) {
-    width: 50vw;
-    padding-bottom: 0;
+    width: 80vw;
+
   }
 `;
 
@@ -93,7 +94,7 @@ const Human = styled.div`
   }
 `;
 const Text = styled.h4`
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.4rem + 1vw);
   line-height: 1.5;
   color: var(--nav2);
 `;
@@ -126,16 +127,16 @@ const About = () => {
         </div>
         <Content>
           <Rocket>
-            <img src={seq} alt="" width="400" height="400" />
+            <img src={gif} alt="" width="500" height="600"/>
           </Rocket>
           <AboutText>
             <Human>
-              <img src={human} alt="" width="400" height="400" />
+              {/* <img src={human} alt="" width="400" height="400" /> */}
             </Human>
 
             <Text>
             We decode the language of genes, unravel complex data, convey groundbreaking insights and advancements in genomics 🧬, bioinformatics 💻, computational biology, and beyond! Stay tuned for a data-driven adventure!
-    
+            Check out our <a href="https://github.com/orgs/BMGLab/repositories" target="_blank" rel="noopener noreferrer">GitHub Page </a>!
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />

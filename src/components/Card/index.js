@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const CARD = styled.div`
-  height: calc(10rem + 12vw);
-  width: calc(11rem + 12vw);
+  height: 420px;
+  width: calc(14rem + 12vw);
   background-color: var(--nav2);
   border-radius: 20px;
   position: relative;
@@ -19,8 +19,8 @@ const CARD = styled.div`
 `;
 
 const Image = styled.div`
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   position: absolute;
   left: 50%;
   bottom: 80%;

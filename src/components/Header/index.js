@@ -262,7 +262,7 @@ const Header = () => {
           Team
         </a>
         <a href="#research" onClick={(e) => scrollUp("research", e)}>
-          Researches
+          Projects
         </a>
       
        
@@ -283,7 +283,7 @@ const Header = () => {
           Team
         </a>
         <a href="#research" onClick={(e) => handleClick("research", e)}>
-          Researches
+          Projects
         </a>
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contact Us</Button>
