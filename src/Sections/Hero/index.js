@@ -1,6 +1,5 @@
 
 import styled, { keyframes } from "styled-components";
-import arrow from "../../assets/Arrow Right.svg";
 import Labteam from "../../assets/labteam.svg";
 
 const move = keyframes` 
