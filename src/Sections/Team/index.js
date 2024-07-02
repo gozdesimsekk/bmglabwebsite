@@ -55,7 +55,7 @@ const Carousal = styled.div`
   }
   .slick-slider .slick-dots button:before {
     color: #0a0b10;
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .slick-slide.slick-active {
     display: flex;
@@ -66,6 +66,7 @@ const Carousal = styled.div`
     padding: 0;
     margin-bottom: 2rem;
   }
+  
 `;
 
 const Team = () => {
