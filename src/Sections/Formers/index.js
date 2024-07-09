@@ -30,14 +30,7 @@ const Main = styled.div`
   align-items:center;
   justify-content: center;
   flex-direction: column;
-  @media only Screen and (max-width: 64em) {
-    margin: 0 calc(5rem + 5vw);
-    margin-top: 10rem;
-  }
-  @media only Screen and (max-width: 40em) {
-    align-items: center;
-    margin: 3rem calc(3rem + 3vw);
-  }
+ 
 `;
 
 const Title = styled.h1`
@@ -65,10 +58,8 @@ const Rocket = styled.div`
   padding-bottom: 2rem;
   padding-right: 5%;
 
-  @media only Screen and (max-width: 40em) {
-    width: 80vw;
-
-  }
+ 
+ 
 `;
 
 const AboutText = styled.div`

@@ -285,9 +285,9 @@ const Header = () => {
         <a href="#research" onClick={(e) => handleClick("research", e)}>
           Projects
         </a>
-        <a href="#contact" onClick={(e) => handleClick("contact", e)}>
-          <Button>Contact Us</Button>
-        </a>
+        <a href="https://github.com/orgs/BMGLab/repositories" target="_blank" rel="noopener noreferrer" >
+          <Button>BMGLab Github</Button>
+        </a> 
       </MobileMenu>
     </Headers>
   );
