@@ -63,7 +63,7 @@ const Rocket = styled.div`
 `;
 
 const AboutText = styled.div`
-  width: 50%;
+  width: 100%;
   position: relative;
   @media only Screen and (max-width: 40em) {
     width: 100%;
@@ -80,10 +80,11 @@ const Formers = () => {
         <Content>
        
           <AboutText>
+          <p> Mert Yıldız</p>
+          <p> Yusuf Çağlar Odabaşı </p>
             <p> Zeynep Ekici</p>
             <p> Zeynep Akçor</p>
-            <p> Yusuf Çağlar Odabaşı </p>
-            <p> Mert Yıldız</p>
+           
           </AboutText>
           <Rocket>
             <img src={alumni} alt="alumni"/>
