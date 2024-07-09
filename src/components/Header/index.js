@@ -8,10 +8,10 @@ const Headers = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 2rem 1rem ;
   height: 5rem;
-  background-color: var(--nav);
-  color: var(--white);
+  background-color: white;
+  color:#367298;
   position: relative;
   z-index: 500;
   @media only Screen and (max-width: 64em) {
@@ -34,12 +34,13 @@ const Logo = styled.a`
     height: 4rem; /* İstenilen yükseklik */
   }
   h3 {
+    font-size:18px;
     flex: 1; /* Boşluğu kapla */
   }
 `;
 const Nav = styled.nav`
-  width: 25rem;
-  max-width: 40rem;
+  width: 35rem;
+  max-width: 50rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,7 +51,7 @@ const Nav = styled.nav`
   a {
     font-weight: 600;
     line-height: 1.5;
-    color: var(--white);
+    color: #367298;
     &::after {
       content: "";
       display: block;
@@ -75,8 +76,8 @@ const Nav = styled.nav`
 `;
 
 const Button = styled.button`
-  background-color: var(--purple);
-  padding: 0.5rem 1rem;
+  background-color: #08A6B2;
+  padding: 1rem;
   border-radius: 20px;
   color: var(--white);
   font-weight: 600;
@@ -113,7 +114,7 @@ const HamburgerBtn = styled.button`
   &::before,
   &::after {
     content: "";
-    background-color: var(--white);
+    background-color: #367298;;
     width: 2rem;
     height: 2px;
     display: inline-block;
@@ -264,11 +265,10 @@ const Header = () => {
         <a href="#research" onClick={(e) => scrollUp("research", e)}>
           Projects
         </a>
-      
-       
-        {/* <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
-          <Button>Contact Us</Button>
-        </a> */}
+     
+       <a href="https://github.com/orgs/BMGLab/repositories" target="_blank" rel="noopener noreferrer" >
+          <Button>BMGLab Github</Button>
+        </a> 
       </Nav>
       <HamburgerBtn clicked={+click} onClick={() => setClick(!click)}>
         <span></span>

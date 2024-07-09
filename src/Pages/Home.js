@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Events from "../Sections/Events";
 import Team from "../Sections/Team/index";
 import ResearchList from "../Sections/Research";
+import Formers from "../Sections/Formers";
 
 const Container = styled.div`
   display: flex;
@@ -21,6 +22,7 @@ const Home = () => {
       <About />
       <Events/>
       <Team />
+      <Formers/>
       <ResearchList/>
 
       <Contact />

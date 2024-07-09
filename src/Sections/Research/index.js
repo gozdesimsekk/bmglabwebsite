@@ -103,10 +103,10 @@ const ResearchList = () => {
         </ResearchBody>
       </ResearchItem>
       <ResearchItem>
-        <ResearchTitle>Rat Brain Atlas Project- ‘Single cell survey of Rat brain</ResearchTitle>
+        <ResearchTitle>Rat Brain Atlas Project- Single cell survey of Rat brain</ResearchTitle>
         <ResearchBody>
           Researchers: Boehringer Ingelheim <br/>
-          Contributors: Yasin KAYMAZ, Nathan Lawless, Kelly Allers
+          Contributors: Yasin Kaymaz, Nathan Lawless, Kelly Allers
         </ResearchBody>
       </ResearchItem>
     </Container>

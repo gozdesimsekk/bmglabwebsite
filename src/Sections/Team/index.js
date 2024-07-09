@@ -162,12 +162,7 @@ const Team = () => {
             image="melikegüler"
             title="Long Term Intern"
           />
-          <Card
-            text="Zeynep Akçor, Melisa Ekici"
-            name="Alumni"
-            image="alumni"
-         
-          />
+          
         </Slider>
       </Carousal>
     </Section>

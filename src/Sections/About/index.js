@@ -1,33 +1,31 @@
 import styled from "styled-components";
-import wave from "../../assets/waves.svg";
 import gif from   "../../assets/labgif.gif"
-
-
 
 const AboutSection = styled.section`
   width: 100vw;
+  height:60vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
-const Waves = styled.img`
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: -3rem;
-  @media only Screen and (max-width: 64em) {
-    top: -2rem;
-  }
-  @media only Screen and (max-width: 40em) {
-   display: none
-  }
-`;
+// const Waves = styled.img`
+//   width: 100%;
+//   height: auto;
+//   position: absolute;
+//   top: -3rem;
+//   @media only Screen and (max-width: 64em) {
+//     top: -2rem;
+//   }
+//   @media only Screen and (max-width: 40em) {
+//    display: none
+//   }
+// `;
 
 const Main = styled.div`
-  margin: 0 15rem;
-  margin-top: 15rem;
+  margin: 0 10rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -112,8 +110,6 @@ const AboutText = styled.div`
 const About = () => {
   return (
     <AboutSection id="aboutus">
-      <Waves src={wave} alt="" />
-     
       <Main>
         <div>
           <Title>About Us</Title>

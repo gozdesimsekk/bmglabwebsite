@@ -104,23 +104,38 @@ const Events = () => {
        text={
               <>
                 <p> <strong> 24 April – 26 April 2024, Prague, Czech Republic </strong></p>
-                <p>Connecting the dots between multimodal data domains for brain cancer research - Yasin Kaymaz</p>
-                <p>Deep learning approaches to brain tumor histopathology and gene expression levels - Gözde Şimşek</p>
-                <p>Pathway to Pathogenesis: Exploring Glioblastoma through Pathway Scoring Algorithms - Ebru Kocakaya</p>
+                <p>Connecting the dots between multimodal data domains for brain cancer research - Yasin Kaymaz 🧠 </p>
+                <p>Deep learning approaches to brain tumor histopathology and gene expression levels - Gözde Şimşek 👩🏽‍💻</p>
+                <p>Pathway to Pathogenesis: Exploring Glioblastoma through Pathway Scoring Algorithms - Ebru Kocakaya 📍</p>
               </>
             }
           />
-
-          <News
-                image="costnet4brain"
+    <News
+       image="ebrutuseb"
+       title="Third Place at the TÜSEB Future Health Technologies - Genomics Congress"
+       text={
+              <>
+          <p> Ebru Kocakaya, a PhD candidate at BMGLab, presented an oral presentation at the Future Health Technologies - Genomics Congress organized by Turkey Health Institutes Association. Our research focused on the effectiveness of CAR-T Cell therapy against lung cancer 🫁, and we secured third place in Istanbul 🥉.</p>
+              </>
+            }
           />
-
           <News
-              image="costnet4brain"
+       image="costmye"
+       title="MYE-INFOBANK poster presentation - Budva, Montenegro"
+       text={
+              <>
+          <p>PosterSession participants and organizers in Budva! 🌟 It was a successful meeting on science, with contributions from our PhD candidates Ebru Kocakaya and master's student Duygu Keremitçi. Congratulations to Ebru for achieving second place 🥈, and a shoutout to Duygu for her research on scRNA-seq! 👏🫁</p>
+              </>
+            }
           />
-
           <News
-                 image="costnet4brain"
+       image="cliff"
+       title="MYE-INFOBANK poster presentation - Budva, Montenegro"
+       text={
+              <>
+          <p>From a hectic July to a promising August!⏩ Hosting two great minds was a true honor – Dr. Derrick K Deconti from Harvard TH Chan School of Public Health and Dr. Cliff Odour from Brown University!🧠 Together, we worked on Seq-Well, a platform by shaleklab for scRNA-seq!🔬✨</p>
+              </>
+            }
           />
         </Slider>
       </Carousal>

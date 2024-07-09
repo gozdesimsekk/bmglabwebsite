@@ -1,6 +1,6 @@
 
 import styled, { keyframes } from "styled-components";
-import Labteam from "../../assets/labteam.svg";
+import Labteam from "../../assets/bmglabold.jpg";
 
 const move = keyframes` 
 0% { transform: translateY(-5px)  }
@@ -10,7 +10,7 @@ const move = keyframes`
 
 const HomeSection = styled.section`
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   background-color: #2d64e3;
   display: flex;
   justify-content: center;
@@ -40,11 +40,11 @@ const MainContent = styled.div`
 
 const MobileSvg = styled.img`
   max-width: 90%;
-  width: calc(20% + 20vw);
+  width: calc(10% + 20vw);
   border-radius: 50px;
   height: auto;
   z-index: 7;
-  animation: ${move} 2.5s ease infinite;
+  animation: ${move} 5.5s ease infinite;
   @media only Screen and (max-width: 48em) {
     align-self: center;
     position: absolute;
@@ -79,26 +79,26 @@ const Lb = styled.div`
   }
 `;
 
-const Topic = styled.span`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--nav);
-  color: #04283d;
-  font-weight: 700;
-  font-size: calc(0.4rem + 0.4vw);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-`;
+// const Topic = styled.span`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: var(--nav);
+//   color: #04283d;
+//   font-weight: 700;
+//   font-size: calc(0.4rem + 0.4vw);
+//   padding: 0.5rem 1rem;
+//   border-radius: 20px;
+// `;
 
-const Circle = styled.span`
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  background-color: var(--purple);
-  margin-right: 0.5rem;
-`;
+// const Circle = styled.span`
+//   display: inline-block;
+//   width: 1rem;
+//   height: 1rem;
+//   border-radius: 50%;
+//   background-color: var(--purple);
+//   margin-right: 0.5rem;
+// `;
 
 const Title = styled.h1`
   font-size: calc(2rem + 1vw);
@@ -111,10 +111,7 @@ const HeroSection = () => {
     <HomeSection id="home">
       <MainContent id="home">
         <Lb id="leftBlock">
-          <Topic>
-            <Circle />
-            <span>İzmir, Ege University, Bioengineering Department </span>
-          </Topic>
+         
           <Title>Single cells, bioinformatics, genomics and beyond!</Title>
         </Lb>
         <MobileSvg
