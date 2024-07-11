@@ -130,7 +130,7 @@ const Events = () => {
           />
           <News
        image="cliff"
-       title="MYE-INFOBANK poster presentation - Budva, Montenegro"
+       title="Seq-Well Study with Dr. Derrick K Deconti from Harvard and Dr. Cliff Odour from Brown"
        text={
               <>
           <p>From a hectic July to a promising August!⏩ Hosting two great minds was a true honor – Dr. Derrick K Deconti from Harvard TH Chan School of Public Health and Dr. Cliff Odour from Brown University!🧠 Together, we worked on Seq-Well, a platform by shaleklab for scRNA-seq!🔬✨</p>

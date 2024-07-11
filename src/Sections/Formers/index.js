@@ -57,7 +57,10 @@ const Rocket = styled.div`
   width: 58%;
   padding-bottom: 2rem;
   padding-right: 5%;
-
+  @media only Screen and (max-width: 40em) {
+ 
+    width: 28%;
+}
  
  
 `;
@@ -65,8 +68,10 @@ const Rocket = styled.div`
 const AboutText = styled.div`
   width: 100%;
   position: relative;
+ 
   @media only Screen and (max-width: 40em) {
-    width: 100%;
+    width: 70vw;
+
   }
 `;
 
@@ -82,7 +87,7 @@ const Formers = () => {
           <AboutText>
           <p> Mert Yıldız</p>
           <p> Yusuf Çağlar Odabaşı </p>
-            <p> Zeynep Ekici</p>
+            <p> Melisa Ekici</p>
             <p> Zeynep Akçor</p>
            
           </AboutText>
