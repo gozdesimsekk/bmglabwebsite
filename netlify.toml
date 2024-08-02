@@ -1,4 +1,7 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+[build]
+  command = "CI= npm run build"
+  publish = "build"
+
+ [[redirects]]
+  from = "https://bmglab-ege.com/"
+  to = "https://www.bmglab-ege.com/"
