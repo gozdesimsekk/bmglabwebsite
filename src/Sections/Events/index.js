@@ -98,6 +98,24 @@ const Events = () => {
 
       <Carousal>
         <Slider {...settings}>
+        <News
+       image="lungatlas1"
+       title="Atlas Working Group Meeting on Lung Diseases-MyeInfoBank COST Action"
+       text={
+              <>
+          <p>From July 17-19, 2024, Ege University hosted the Atlas Working Group Meeting on Lung Diseases, organized by Yasin Kaymaz, PhD. This event brought together members of the MyeInfoBank COST Action to outline a road map and define the next steps for the lung atlas 🫁. Key topics discussed included cell type annotations, downstream analysis, and atlas interpretation.</p>
+              </>
+            }
+          />
+      <News
+       image="ephesus"
+       title="Journey Through Time: Discovering Ephesus with the MyeInfoBank and BMGLab Family"
+       text={
+              <>
+          <p>As the BMGLab family, we were thrilled to host a tour of Ephesus Ancient City 🏛️ for our participants following the event in İzmir. We aimed to give our guests a closer look at Turkey's rich history and cultural heritage 🇹🇷. The tour was a fun and educational experience 🎉, providing a perfect complement to the scientific discussions. We want to thank all our participants for joining us on this unforgettable journey! 🙏✨ </p>
+              </>
+            }
+          />
           <News
        image="costnet4brain"
        title="Training School on Brain Cancer Study and Data Integration in Prague COST CA22103"
@@ -137,6 +155,9 @@ const Events = () => {
               </>
             }
           />
+      
+
+
         </Slider>
       </Carousal>
     </Section>
