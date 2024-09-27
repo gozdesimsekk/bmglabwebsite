@@ -74,7 +74,7 @@ const ResearchList = () => {
         <ResearchBody>
         Turkish National Institute of Health (TÜSEB) 2022-B-01 <br/>
           Researchers: Asst. Prof. Dr. Yasin Kaymaz, Prof. Dr. Hilal Kazan, Prof. Dr. Güneş Esendağlı, Prof. Dr. Ayşe Caner <br/>
-          Contributors: PhD Candidate Ebru Kocakaya, Hamdullah, Ece
+          Contributors: PhD Candidate Ebru Kocakaya, PhD Candidate Hamdullah Yanık, Postdoc Ece Tavukçuoğlu
         </ResearchBody>
       </ResearchItem>
       <ResearchItem>
@@ -105,7 +105,7 @@ const ResearchList = () => {
         <ResearchBody>
         Turkish National Institute of Health (TÜSEB) A2-YL <br/>
           Researchers: Asst. Prof. Dr. Yasin Kaymaz, PhD Candidate Duygu Keremitçi <br/>
-          Contributors: Prof. Dr. Güneş Esendağlı, PhD Candidate Ebru Kocakaya, Hamdullah, Ece, 
+          Contributors: Prof. Dr. Güneş Esendağlı, PhD Candidate Ebru Kocakaya, PhD Candidate Hamdullah Yanık, Postdoc Ece Tavukçuoğlu
         </ResearchBody>
       </ResearchItem>
       <ResearchItem>
