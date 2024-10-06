@@ -46,7 +46,16 @@ const ResearchList = () => {
     <Container id="research">
       <Title>Our Projects</Title>
       <ResearchItem>
-        <ResearchTitle>The single-cell transcriptomic analysis of myeloid-derived suppressor cells in lung cancer</ResearchTitle>
+        <ResearchTitle>Developing a Bioinformatics Approach to Identify Functional Subgroups Based on Gene Set Scoring in Single-Cell Transcriptomics Data</ResearchTitle>
+        <ResearchBody>
+        Scientific and Technological Research Council of Turkey (TÜBİTAK) 2515 COST<br/>
+          Researchers: Asst. Prof. Dr. Yasin Kaymaz  <br/>
+          Contributors: PhD Candidate Ebru Kocakaya, Zeynep Garan, Ozan Göçmen
+        </ResearchBody>
+      </ResearchItem>
+
+      <ResearchItem>
+        <ResearchTitle>The Single-Cell Transcriptomic Analysis of Myeloid-Derived Suppressor Cells in Lung Cancer</ResearchTitle>
         <ResearchBody>
         Turkish National Institute of Health (TÜSEB) 2024-B01 <br/>
           Researchers: Asst. Prof. Dr. Yasin Kaymaz  <br/>
@@ -54,7 +63,7 @@ const ResearchList = () => {
         </ResearchBody>
       </ResearchItem>
       <ResearchItem>
-        <ResearchTitle>Extension of endSeqTools with single-cell RNAseq data</ResearchTitle>
+        <ResearchTitle>Extension of endSeqTools with Single-Cell RNAseq Data</ResearchTitle>
         <ResearchBody>
         Scientific and Technological Research Council of Turkey (TÜBİTAK) 1002 <br/>
           Researchers: Asst. Prof. Dr. Yasin Kaymaz <br/>
