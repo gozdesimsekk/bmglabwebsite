@@ -89,6 +89,7 @@ const Formers = () => {
           <p> Yusuf Çağlar Odabaşı </p>
             <p> Melisa Ekici</p>
             <p> Zeynep Akçor</p>
+            <p> Beyza Aygün</p>
            
           </AboutText>
           <Rocket>
