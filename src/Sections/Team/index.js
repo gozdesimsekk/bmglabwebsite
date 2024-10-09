@@ -137,8 +137,14 @@ const Team = () => {
             name="Ozan Göçmen"
             image="ozangocmen"
             title="Master's student"
-          />        
- <Card
+          />   
+           <Card
+            text="I aim to use my Java, Python and Matlab experiments in biomedical engineering in the field of bioinformatics."
+            name="Ceyda Sezer"
+            image="ceydasezer"
+            title="Master's student"
+          />         
+          <Card
             text="As a bioinformatician and code developer, I work on genomics-based projects at Genfoquest Analytica. My role involves conducting detailed bioinformatics analyses and developing innovative computational tools. "
             name="Elif Duymaz"
             title="MSc. Bioinformatician"
