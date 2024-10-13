@@ -174,6 +174,12 @@ const Team = () => {
             image="melikegüler"
             title="Long Term Intern"
           />
+            <Card
+            text="I'm a computer engineering junior. I focus on designing CNN models and iterative AI development process for medical implementations."
+            name="Deniz Ceylan"
+            image="denizceylan"
+            title="Short Term Intern"
+          />
           
         </Slider>
       </Carousal>
