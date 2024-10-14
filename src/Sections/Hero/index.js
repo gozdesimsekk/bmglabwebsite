@@ -1,6 +1,7 @@
 
 import styled, { keyframes } from "styled-components";
 import Labteam from "../../assets/bmglabold.jpg";
+import Labteamnew from "../../assets/new_lab_photo.jpeg";
 
 const move = keyframes` 
 0% { transform: translateY(-5px)  }
@@ -16,12 +17,12 @@ const HomeSection = styled.section`
   justify-content: center;
   position: relative;
   @media only Screen and (max-width: 48em) {
-    height: 70vw;
-    display: block;
+    height: 70vh;
   }
   @media only Screen and (max-width: 420px) {
-    height: auto;
-    padding-bottom: 2rem;
+
+
+    padding-bottom: 1rem;
   }
 `;
 const MainContent = styled.div`
@@ -35,25 +36,26 @@ const MainContent = styled.div`
     justify-content: center;
     align-items: center;
     width: 100vw;
+      gap: 5%;
   }
 `;
 
 const MobileSvg = styled.img`
-  max-width: 90%;
-  width: calc(10% + 20vw);
-  border-radius: 50px;
+  max-width: 100%;
+  width: calc(20% + 20vw);
+  border-radius: 30px;
   height: auto;
   z-index: 7;
   animation: ${move} 5.5s ease infinite;
   @media only Screen and (max-width: 48em) {
     align-self: center;
-    position: absolute;
-    bottom: 20px;
-    width: calc(30% + 20vw);
-    opacity: 0.5;
+   
+    bottom: 10px;
+   
+
   }
   @media only Screen and (max-width: 40em) {
-    display: none;
+width: calc(30% + 20vw);
   }
 `;
 
@@ -71,7 +73,7 @@ const Lb = styled.div`
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    margin-top: calc(2.5rem + 2.5vw);
+    margin-top: calc(1rem + 2.5vw);
     filter: drop-shadow(2px 4px 6px black);
   }
   @media only Screen and (max-width: 40em) {
@@ -115,11 +117,11 @@ const HeroSection = () => {
           <Title>Single cells, bioinformatics, genomics and beyond!</Title>
         </Lb>
         <MobileSvg
-          src={Labteam}
+          src={Labteamnew}
           alt="Mobile Svg"
           srcSet=""
-          width="350"
-          height="350"
+          width="400"
+          height="400"
         />
       </MainContent>
     </HomeSection>
