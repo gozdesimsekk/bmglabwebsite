@@ -101,14 +101,7 @@ const ResearchList = () => {
           Researchers: Asst. Prof. Dr. Yasin Kaymaz, Postdoc Pelin Ergün, PhD Sezgi Kıpçak
         </ResearchBody>
       </ResearchItem>
-      <ResearchItem>
-        <ResearchTitle>Development of a Bioinformatics Approach for Determining Functional Subgroups Based on Gene Set Scoring in Single-Cell Transcriptomics Data</ResearchTitle>
-        <ResearchBody>
-        Scientific and Technological Research Council of Turkey (TÜBİTAK) COST 2515 <br/>
-          Researchers: Asst. Prof. Dr. Yasin Kaymaz <br/>
-          Contributors: PhD Candidate Ebru Kocakaya, Zeynep Garan
-        </ResearchBody>
-      </ResearchItem>
+     
       <ResearchItem>
         <ResearchTitle>Development of a Machine Learning Model for Classifying Tumor-Associated Macrophage Cells into Subgroups</ResearchTitle>
         <ResearchBody>

@@ -1,7 +1,7 @@
 
 import styled, { keyframes } from "styled-components";
 import Labteam from "../../assets/bmglabold.jpg";
-import Labteamnew from "../../assets/new_lab_photo.jpeg";
+import Labteamnew from "../../assets/labteam.png";
 
 const move = keyframes` 
 0% { transform: translateY(-5px)  }
